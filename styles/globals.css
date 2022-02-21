@@ -1,0 +1,41 @@
+:root {
+    --font-size: 1.5rem;
+    --link-color: #000000;
+    --link-hover-color: #000000;
+    --primary-font: 'Yanone Kaffeesatz';
+    --secondary-font: 'Anton', sans-serif;
+    --tertiary-font: 'Shizuru', cursive;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+.imageWrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
